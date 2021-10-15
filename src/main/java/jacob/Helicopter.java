@@ -4,8 +4,6 @@ public class Helicopter extends Aircraft implements IChangeAltitude, ICarryPasse
 
     //////////Attributes//////////
 
-    private String colour;
-    private String make;
     private int passengerQty;
     private String passengerPosition;
     private String moveUp;
@@ -48,19 +46,4 @@ public class Helicopter extends Aircraft implements IChangeAltitude, ICarryPasse
         return passengerPosition;
     }
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
 }

@@ -4,11 +4,6 @@ package jacob;
 public class Car extends FourWheeler implements IStore, ICarryPassenger{
 
     //////////Attributes//////////
-
-    private String colour;
-    private String make;
-    private String model;
-
     private String storageSize;
     private String storageLocation;
     private int passengerQty;

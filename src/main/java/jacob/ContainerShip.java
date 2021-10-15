@@ -3,9 +3,6 @@ package jacob;
 public class ContainerShip extends Watercraft implements IStore{
 
     //////////Attributes//////////
-
-    private String colour;
-
     private String storageSize;
     private String storageLocation;
 
@@ -28,11 +25,4 @@ public class ContainerShip extends Watercraft implements IStore{
         return storageLocation;
     }
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
 }

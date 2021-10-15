@@ -4,7 +4,6 @@ public class Submarine extends Watercraft implements IChangeAltitude{
 
     ///////////Attributes////////////
 
-    private String colour;
     private String moveUp;
     private String moveDown;
     private String land;
@@ -36,11 +35,4 @@ public class Submarine extends Watercraft implements IChangeAltitude{
         return land;
     }
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
 }

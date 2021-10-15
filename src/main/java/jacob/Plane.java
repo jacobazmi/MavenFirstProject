@@ -4,8 +4,6 @@ public class Plane extends Aircraft implements IStore, ICarryPassenger{
 
     //////////// Attributes/////////////
 
-    private String colour;
-
     private String storageSize = "Car has medium storage capacity";
     private String storageLocation = "Boot at back of car";
 
@@ -42,11 +40,4 @@ public class Plane extends Aircraft implements IStore, ICarryPassenger{
         return passengerPosition;
     }
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
 }

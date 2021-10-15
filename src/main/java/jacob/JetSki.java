@@ -3,7 +3,6 @@ package jacob;
 public class JetSki extends Watercraft{
 
     ////////////Attributes/////////////////
-    private String colour;
 
 
     ///////////Constructors//////////////////
@@ -15,11 +14,4 @@ public class JetSki extends Watercraft{
     ///////////////Methods/////////////////////
 
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
 }

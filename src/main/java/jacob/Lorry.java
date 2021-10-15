@@ -4,11 +4,6 @@ public class Lorry extends FourWheeler implements ICarryPassenger, IStore{
 
     //////////Attributes//////////
 
-    private String colour;
-    private String size;
-    private String make;
-    private String model;
-
     private String storageSize;
     private String storageLocation;
     private int passengerQty;
@@ -47,35 +42,4 @@ public class Lorry extends FourWheeler implements ICarryPassenger, IStore{
         return storageLocation;
     }
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
-    }
-
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
 }

@@ -8,7 +8,7 @@ public abstract class Watercraft extends Vehicle{
 
     //////////Constructors//////////
 
-    public Watercraft(String colour, String make, String model, String registration){
+    protected Watercraft(String colour, String make, String model, String registration){
         super(registration, colour, make, model);
     }
 

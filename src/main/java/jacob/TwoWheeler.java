@@ -7,7 +7,7 @@ public abstract class TwoWheeler extends Wheeled {
 
 
     ///////////Constructors//////////
-    public TwoWheeler(String registration, String colour, String make, String model, int wheelSize){
+    protected TwoWheeler(String registration, String colour, String make, String model, int wheelSize){
         super(registration, colour, make, model, wheelSize);
     }
 

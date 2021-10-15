@@ -8,7 +8,7 @@ public abstract class FourWheeler extends Wheeled {
     private String transmission;
 
     ///////////Constructors//////////
-    public FourWheeler(String registration, String colour, String make, String model, int wheelSize, String driveAxle, String transmission){
+    protected FourWheeler(String registration, String colour, String make, String model, int wheelSize, String driveAxle, String transmission){
         super(registration, colour, make, model, wheelSize);
         this.drive = driveAxle;
         this.transmission = transmission;

@@ -9,7 +9,7 @@ public class LorryTest {
     @Test
     public void testLorryColourMethod() {
         Lorry testLorry = new Lorry("black","Renault","Series 1",16,"FWD","Automatic","CB15RPD");
-        assertEquals("The lorry was not the same colour", "Renault", testLorry.getColour());
+        assertEquals("The lorry was not the same colour", "black", testLorry.getColour());
     }
 
     @Test

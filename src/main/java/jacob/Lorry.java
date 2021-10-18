@@ -10,7 +10,7 @@ public class Lorry extends FourWheeler implements IStore{
     //////////Constructors//////////
 
     public Lorry(String colour, String make, String model, int wheelSize, String driveAxle, String transmission, String registration){
-        super(colour, make, model, registration, wheelSize, driveAxle, transmission);
+        super(registration, colour, make, model, wheelSize, driveAxle, transmission);
         this.storageSize = "Lorry has large storage capacity";
         this.storageLocation = "Lorry storage is in a unit connected to the rear of the cab";
     }

@@ -9,7 +9,7 @@ public abstract class Wheeled extends Vehicle{
 
     //////////Constructors//////////
 
-    public Wheeled(String registration, String colour, String make, String model, int wheelSize){
+    protected Wheeled(String registration, String colour, String make, String model, int wheelSize){
         super(registration, colour, make, model);
         this.wheelSize = wheelSize;
     }

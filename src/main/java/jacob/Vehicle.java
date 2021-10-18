@@ -12,7 +12,7 @@ public abstract class Vehicle {
 
     //////////Constructors//////////
 
-    public Vehicle(String registration, String colour, String make, String model){
+    protected Vehicle(String registration, String colour, String make, String model){
         this.registration = registration;
         this.colour = colour;
         this.make = make;

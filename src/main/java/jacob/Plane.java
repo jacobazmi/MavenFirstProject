@@ -4,15 +4,15 @@ public class Plane extends Aircraft implements IStore, ICarryPassenger{
 
     //////////// Attributes/////////////
 
-    private String storageSize = "Car has medium storage capacity";
-    private String storageLocation = "Boot at back of car";
+    private String storageSize;
+    private String storageLocation;
 
     private int passengerQty;
     private String passengerPosition;
 
     /////////////Constructors/////////////////
     public Plane(String colour, String make, String model, String registration){
-        super(registration, colour, make, model);
+        super(colour, make, model,registration);
         this.storageSize = "Plane has large storage capacity";
         this.storageLocation = "Plane storage is beneath passenger cabin";
     }

@@ -9,7 +9,7 @@ public class Main {
         ArrayList<Vehicle> vehicles = new ArrayList<>();
 
         // unsure if new object needs to be added as Car, Submarine etc. or superclass as interfaces do not work without
-        Car car3 = new Car("black","BMW","Series 1","CB15RPD",16,"RWD","Automatic",4);
+        Vehicle car1 = new Car("black","BMW","Series 1","CB15RPD",16,"RWD","Automatic",4);
         Submarine sub1 = new Submarine("yellow","BoatsRUs","BigBoi","18493");
         ContainerShip ship1 = new ContainerShip("blue","Maersk","Y","1SJ578");
         Helicopter heli1 = new Helicopter("white","Airbus","F5","DJSJK67");
@@ -17,13 +17,14 @@ public class Main {
         Lorry lorry1 = new Lorry("orange","Saab","V8",22,"FWD","automatic","BK16RRP");
 
 
-        vehicles.add(car3);
+        vehicles.add(car1);
         vehicles.add(sub1);
         vehicles.add(ship1);
         vehicles.add(heli1);
         vehicles.add(jetSki1);
         vehicles.add(lorry1);
 
+        System.out.println(((Car) car1).storageLocation());
 
         System.out.println("The current collection consists of:");
         for (Vehicle i : vehicles) {
@@ -79,7 +80,7 @@ public class Main {
             System.out.println("No new vehicles have been added. There are " + vehicles.size() + " in the collection.");
         }
 
-        
+
 
     }
 }

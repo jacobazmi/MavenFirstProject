@@ -15,7 +15,7 @@ public class MotorbikeTest {
     @Test
     public void testMotorbikeMakeMethod() {
         Motorbike testMotorbike = new Motorbike("red","Honda","CB500F",12,"BK56EEP");
-        assertEquals("The submarine was not the same colour","honda",testMotorbike.getMake());
+        assertEquals("The submarine was not the same make","Honda",testMotorbike.getMake());
     }
 
 }

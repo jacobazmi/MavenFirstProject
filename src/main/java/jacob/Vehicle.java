@@ -22,14 +22,6 @@ public abstract class Vehicle {
 
     //////////Methods////////////
 
-    public void stop(){
-        System.out.println("Vehicle is off");
-    }
-
-    public void start(){
-        System.out.println("Vehicle is on");
-    }
-
 
     public String getRegistration() {
         return registration;

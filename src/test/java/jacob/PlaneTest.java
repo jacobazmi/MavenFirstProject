@@ -42,4 +42,16 @@ public class PlaneTest {
         Plane testPlane = new Plane("grey","Boeing","737","BK56EEP");
         assertEquals("The plane was not the same storage size","Plane storage is beneath passenger cabin",testPlane.storageLocation());
     }
+    
+    @Test
+    public void testPlanePassengerQtyMethod() {
+        Plane testPlane = new Plane("grey","Boeing","737","BK56EEP");
+        assertEquals("The plane was not the same storage size",100,testPlane.passengerQty());
+    }
+
+    @Test
+    public void testPlanePassengerLocationMethod() {
+        Plane testPlane = new Plane("grey","Boeing","737","BK56EEP");
+        assertEquals("The plane was not the same storage size","Plane passenger cabin in the middle of the plane",testPlane.passengerPosition());
+    }
 }

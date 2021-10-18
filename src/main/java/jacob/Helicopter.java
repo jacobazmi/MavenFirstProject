@@ -16,6 +16,8 @@ public class Helicopter extends Aircraft implements IChangeAltitude, ICarryPasse
         this.moveUp = "Helicopter can move directly up through air";
         this.moveDown = "Helicopter can move directly down through air";
         this.land = "Helicopter can land on helipad";
+        this.passengerQty = 4;
+        this.passengerPosition = "Car passenger cabin behind pilot cockpit";
     }
 
 

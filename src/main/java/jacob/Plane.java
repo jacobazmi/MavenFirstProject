@@ -15,6 +15,8 @@ public class Plane extends Aircraft implements IStore, ICarryPassenger{
         super(colour, make, model,registration);
         this.storageSize = "Plane has large storage capacity";
         this.storageLocation = "Plane storage is beneath passenger cabin";
+        this.passengerQty = 100;
+        this.passengerPosition = "Plane passenger cabin in the middle of the plane";
     }
 
     ////////////Methods///////////////////

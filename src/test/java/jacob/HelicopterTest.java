@@ -47,4 +47,16 @@ public class HelicopterTest {
         Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
         assertEquals("The helicopter was not the same landing","Helicopter can land on helipad",testHelicopter.land());
     }
+    
+    @Test
+    public void testHelicopterPassengerQtyMethod() {
+        Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
+        assertEquals("The helicopter was not the same landing",4,testHelicopter.passengerQty());
+    }
+
+    @Test
+    public void testHelicopterPassengerPositionMethod() {
+        Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
+        assertEquals("The helicopter was not the same landing","Car passenger cabin behind pilot cockpit",testHelicopter.passengerPosition());
+    }
 }

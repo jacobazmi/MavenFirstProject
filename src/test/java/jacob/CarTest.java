@@ -9,7 +9,7 @@ public class CarTest {
     @Test
     public void testCarColourMethod() {
         Car testCar = new Car("black","BMW","Series 1","CB15RPD",16,"RWD","Automatic",4);
-        assertEquals("The car was nt the same colour", "black", testCar.getColour());
+        assertEquals("The car was n0t the same colour", "black", testCar.getColour());
     }
 
     @Test

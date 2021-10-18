@@ -7,7 +7,7 @@ public class JetSki extends Watercraft{
 
     ///////////Constructors//////////////////
     public JetSki(String colour, String make, String model, String registration){
-        super(registration, colour, make, model);
+        super(colour, make, model,registration);
     }
 
 

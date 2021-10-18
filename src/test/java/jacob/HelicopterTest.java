@@ -29,4 +29,22 @@ public class HelicopterTest {
         Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
         assertEquals("The helicopter was not the same registration","BK56EEP",testHelicopter.getRegistration());
     }
+
+    @Test
+    public void testHelicopterMoveUpMethod() {
+        Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
+        assertEquals("The helicopter was not the same up movement","Helicopter can move directly up through air",testHelicopter.moveUp());
+    }
+
+    @Test
+    public void testHelicopterMoveDownMethod() {
+        Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
+        assertEquals("The helicopter was not the same down movement","Helicopter can move directly down through air",testHelicopter.moveDown());
+    }
+
+    @Test
+    public void testHelicopterLandMethod() {
+        Helicopter testHelicopter = new Helicopter("grey","Airbus","H125","BK56EEP");
+        assertEquals("The helicopter was not the same landing","Helicopter can land on helipad",testHelicopter.land());
+    }
 }

@@ -23,4 +23,10 @@ public class PlaneTest {
         Plane testPlane = new Plane("grey","Boeing","737","BK56EEP");
         assertEquals("The plane was not the same model","737",testPlane.getModel());
     }
+
+    @Test
+    public void testPlaneRegistrationMethod() {
+        Plane testPlane = new Plane("grey","Boeing","737","BK56EEP");
+        assertEquals("The plane was not the same reg","BK56EEP",testPlane.getRegistration());
+    }
 }

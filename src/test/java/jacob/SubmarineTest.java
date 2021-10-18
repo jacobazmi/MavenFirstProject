@@ -23,4 +23,10 @@ public class SubmarineTest {
         Submarine testSubmarine = new Submarine("yellow","BoatsRUs","BigBoi","18493");
         assertEquals("The submarine was not the same model","BigBoi",testSubmarine.getModel());
     }
+
+    @Test
+    public void testSubmarineRegistrationMethod() {
+        Submarine testSubmarine = new Submarine("yellow","BoatsRUs","BigBoi","18493");
+        assertEquals("The submarine was not the same registration","18493",testSubmarine.getRegistration());
+    }
 }

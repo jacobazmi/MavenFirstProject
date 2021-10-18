@@ -12,7 +12,7 @@ public class Helicopter extends Aircraft implements IChangeAltitude, ICarryPasse
 
     //////////Constructors//////////
     public Helicopter(String colour, String make, String model, String registration){
-        super(registration, colour, make, model);
+        super(colour, make, model, registration);
         this.moveUp = "Helicopter can move directly up through air";
         this.moveDown = "Helicopter can move directly down through air";
         this.land = "Helicopter can land on helipad";

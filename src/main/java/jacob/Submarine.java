@@ -11,7 +11,7 @@ public class Submarine extends Watercraft implements IChangeAltitude{
 
     ///////////Constructors///////////
     public Submarine(String colour, String make, String model, String registration){
-        super(registration, colour, make, model);
+        super(colour, make, model,registration);
         this.moveUp = "Submarine can move directly up through water";
         this.moveDown = "Submarine can move directly down through water";
         this.land = "Submarine can surface on open water";
